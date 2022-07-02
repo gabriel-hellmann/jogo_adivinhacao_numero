@@ -10,7 +10,7 @@ while True:
 
     if opcao == '1' or opcao == '2':
         if opcao == '2':
-            print(""Tudo bem, quando quiser começar pressione a tecla 'enter'"")
+            print("Tudo bem, quando quiser começar pressione a tecla 'enter'")
             print()
             comecar = input('Pressione a tecla "enter" para começar')
             print()
