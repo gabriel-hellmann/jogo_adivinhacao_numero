@@ -10,8 +10,7 @@ while True:
 
     if opcao == '1' or opcao == '2':
         if opcao == '2':
-            print("""Tudo bem, quando quiser começar pressione a tecla 'enter'        
-                    """)
+            print(""Tudo bem, quando quiser começar pressione a tecla 'enter'"")
             print()
             comecar = input('Pressione a tecla "enter" para começar')
             print()
@@ -20,9 +19,9 @@ while True:
         user2 = int(input('Escolha outro número: '))
 
         if user1 > user2:
-            pc = int(randint(user2, user1))
+            pc = randint(user2, user1)
         else:
-            pc = int(randint(user1, user2))
+            pc = randint(user1, user2)
 
         print('Número aleatório escolhido, agora chegou a sua vez. Tentativas(10)')
         for i in range(1, 11):
@@ -38,11 +37,14 @@ while True:
         print()
         print(20 * '=')
         print()
+        
         print("""Deseja jogar novamente?
         [1] - SIM
         [2] - NÂO              
                        """)
+        
         resposta = input('Qual opção você deseja? ')
+        
         if resposta == '1':
             print()
             print(20 * '=')
